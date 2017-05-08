@@ -5,6 +5,8 @@ body {
 .container {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .item {
@@ -13,4 +15,11 @@ body {
   margin: 5px;
   background: lightskyblue;
   border-radius: 5px;
+  flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
 }
