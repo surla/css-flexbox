@@ -19,7 +19,13 @@ h1 {
   margin: 0 10px 0 10px;
   background: lightskyblue;
   border-radius: 5px;
-  flex-grow: 1;
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  margin: 11px auto;
+  color: white;
 }
 
 @media (max-width: 600px) {
